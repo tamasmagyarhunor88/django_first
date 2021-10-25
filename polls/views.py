@@ -13,7 +13,7 @@ def index(request):
 
 
 def hunor(request):
-    return HttpResponse("Magyar-Hunor Tamas £1000 per day, Porsche incoming")
+    return HttpResponse("Magyar-Hunor Tamas £1000 per day, Porsche 718 GT4 incoming")
 
 
 def detail(request, question_id):
